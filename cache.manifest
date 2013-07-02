@@ -4,6 +4,7 @@ CACHE MANIFEST
 CACHE:
 #index.html
 #assets/css/e-layout.css
+#assets/images/apple-touch-icon.png
 #assets/js/mootools-1.4.5.min.js
 #assets/js/events.js
 
