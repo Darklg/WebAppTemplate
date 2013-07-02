@@ -73,3 +73,24 @@ body {
     padding-top: 30px;
     min-height: 100%;
 }
+
+.main-content-filter {
+    visibility: hidden;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: #fff;
+    -webkit-transition: opacity 0.3s ease-out;
+    -moz-transition: opacity 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+}
+
+.is-main-menu-opened .main-content-filter {
+    visibility: visible;
+    opacity: 0.50;
+}
