@@ -115,12 +115,12 @@ body {
 .mm-links > li {
     padding: 7px 0;
     border-bottom: 1px solid #e0e0e0;
-    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0)));
-    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
-    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
-    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
-    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    background: -moz-linear-gradient(top,rgb(255,255,255) 0,rgba(255,255,255,0) 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgb(255,255,255) ), color-stop(100%,rgba(255,255,255,0) ) );
+    background: -webkit-linear-gradient(top,rgb(255,255,255) 0,rgba(255,255,255,0) 100%);
+    background: -o-linear-gradient(top,rgb(255,255,255) 0,rgba(255,255,255,0) 100%);
+    background: -ms-linear-gradient(top,rgb(255,255,255) 0,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to bottom,rgb(255,255,255) 0,rgba(255,255,255,0) 100%);
 }
 
 .mm-links > li > a {
@@ -141,19 +141,23 @@ body {
 /* Icon */
 
 .border-menu {
+    display: inline-block;
     position: relative;
     padding-left: 1.25em;
+    vertical-align: middle;
+    *display: inline;
+    *zoom: 1;
 }
 
 .border-menu:before {
     content: "";
     position: absolute;
-    top: 0.25em;
+    top: -8px;
     left: 0;
-    width: 0.8em;
-    height: 0.125em;
-    border-top: 0.375em double #000;
-    border-bottom: 0.125em solid #000;
+    width: 15px;
+    height: 2px;
+    border-top: 8px double #000;
+    border-bottom: 3px solid #000;
 }
 
 .is-main-menu-opened .border-menu:before,

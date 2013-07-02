@@ -1,0 +1,11 @@
+CACHE MANIFEST
+# 201307022258
+
+CACHE:
+#index.html
+#assets/css/e-layout.css
+#assets/js/mootools-1.4.5.min.js
+#assets/js/events.js
+
+NETWORK:
+*
