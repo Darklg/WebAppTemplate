@@ -1,12 +1,12 @@
 CACHE MANIFEST
-# 201307022258
+# 20130711221751
 
 CACHE:
-#index.html
-#assets/css/e-layout.css
-#assets/images/apple-touch-icon.png
-#assets/js/mootools-1.4.5.min.js
-#assets/js/events.js
+index.html
+assets/css/e-layout.css
+assets/images/apple-touch-icon.png
+assets/js/mootools-1.4.5.min.js
+assets/js/events.js
 
 NETWORK:
 *
